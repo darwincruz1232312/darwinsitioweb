@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: #EC7063;
+	padding: 20px;
+}
+
+/*CABECERA*/
+header{
+	max-width: 1000px;
+	min-height:130px ;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+	/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff1a00+21,e74c3c+55 */
+background: linear-gradient(to bottom,  #991506 21%,#85261b 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+
+
+logo{
+	width: 100px;
+	animation: 1s entradalogo 1;
+}
+
+#logo img:hover{
+	filter: hue-rotate(50deg);
+}
+
+
+/*CABECERA*/
+
+
+
+
+
+
+/*MENU-ORIZONTAL*/
+#Menu-h{
+	list-style: none;
+	max-width: 1000px;
+	min-height: 50px;
+	background: #3a6eaa  ;
+	margin:0 auto;
+}
+
+#Menu-h ul{
+	display: flex;
+    justify-content: center;
+}
+
+#Menu-h a{
+	color: #FFF;
+	display: block;
+	padding: 20PX;
+    text-decoration: none;
+    background: #3d56c4;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#Menu-h a:hover{
+	background: #F5B7B1 ;
+
+}
+
+#Menu-h ul ul{
+	display: none;
+	position: absolute;
+}
+
+#Menu-h ul li:hover ul{
+	display: block;
+}
+
+/*MENU-ORIZONTAL*/
+
+
+
+
+
+
+#Banner{
+	max-width: 1000px;
+	min-height: 250px;
+    background: #F8F9F9;
+    margin: 0 auto;
+}
+
+#Contenedor{
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin:0 auto ;
+}
+
+
+
+
+/*MENU-VERTICAL*/
+#Menu-v{
+	width: 300px;
+	min-height: 700px;
+	background: #ccc;
+	float: left;
+}
+
+#Menu-v ul{
+	list-style: none;
+	padding: 10px;
+
+}
+
+#Menu-v a{
+	display: block;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 8px;
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 18px;
+	/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff3019+25,ff3019+27,cf0404+70 */
+background: linear-gradient(to bottom,  #3d56c4 25%,#3d56c4 27%,#3d56c4 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#Menu-v a:hover{
+	background: #D98880 ;
+}
+
+#Menu-v a:hover img {
+	animation: 1s rotacion 1;
+
+}
+
+
+
+/*MENU-VERTICAL*/
+
+
+/*CONTENIDO*/
+#Contenido{
+	width: 700px;
+	min-height: 700px;
+	background: #fff;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#Contenido h2{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+#Contenido P{
+	margin-bottom: 30PX;
+	font-family: arial;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.img-izq{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*CONTENIDO*/
+
+/*PIE DE PAGINA*/
+footer{
+	max-width: 1000px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0px 0px 20px 20px;
+	color: #fff;
+	text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 18px;
+
+}
+/*PIE DE PAGINA*/
+
+
+/*KEYFRANCES*/
+@keyframes entrada{
+	0%{
+		transform: translateX(500px);
+	}
+}
+
+
+@keyframes rotacion{
+	0%{
+		transform: rotate(270deg);
+	}
+}
+
+
+
+
+
+
